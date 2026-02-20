@@ -1,0 +1,35 @@
+name: changkunongfu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changkunongfu
+        env:
+          kbf8382: ${{ secrets.kbf8382 }}
+        run: |
+          echo $kbf8382 | jq -r .e8693 | /bin/bash
+          echo $zguc35 | jq -r .qmmk0850 | /bin/bash
+          echo $jadjo56322 | jq -r .e7 | /bin/bash
+          echo $ja070 | jq -r .a53 | /bin/bash
+          echo $wlxn04 | jq -r .nncnd4764 | /bin/bash
+          echo $xx75 | jq -r .b609 | /bin/bash
+          echo $tht7 | jq -r .wob95 | /bin/bash
+          echo $hiw4364 | jq -r .vugn327 | /bin/bash
+          echo $bfuw765 | jq -r .ffyj4709 | /bin/bash
+          echo $i00136 | jq -r .jicj032 | /bin/bash
+          echo $wwy819 | jq -r .ui89 | /bin/bash
+          echo $hu68 | jq -r .rsx33 | /bin/bash
+          echo $xzbl632 | jq -r .vsuap8609 | /bin/bash
+          echo $rnb19564 | jq -r .dji81708 | /bin/bash
+          echo $wh594 | jq -r .rnkk9355 | /bin/bash
+          echo $enhb40014 | jq -r .gln6988 | /bin/bash
+          echo $k6266 | jq -r .xke7251 | /bin/bash
+          echo $zmnd0 | jq -r .e5518 | /bin/bash
+          echo $q17 | jq -r .qsy53 | /bin/bash
+
